@@ -8,6 +8,20 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
 }
+
+/*=====================General====================*/
+
+.navigation-list-item,
+.address-list-item,
+.contacts-list-item,
+.features-list-item,
+.whatwedo-list-item,
+.ourteam-list-item,
+.buttons-list-item,
+.project-item {
+  list-style-type: none;
+}
+
 /*=====================HEADER====================*/
 .logo {
   font-family: "Raleway", sans-serif;
@@ -28,6 +42,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  text-decoration: none;
 
   color: var(--main-color);
 }
@@ -37,6 +52,8 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
 
   color: var(--description-color);
 }
@@ -159,22 +176,32 @@ body {
 }
 
 /*=====================FOOTER====================*/
+.website-footer {
+  background: #2f303a;
+}
+
+.logo-studio {
+  color: #fff;
+}
+
 .contacts-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
 
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts-list-link.address {
+.contacts-list-link.street {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 
-  /*color: #FFFFFF;*/
+  color: #fff;
 }
 
 .contacts-list-link:hover,
